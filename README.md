@@ -9,7 +9,7 @@
   <a href="https://hub.docker.com/r/walkingd/tgto123">
     <img src="https://img.shields.io/badge/Docker%20Image-walkingd%2Ftgto123-2496ED?style=for-the-badge&logo=docker" alt="Docker Image">
   </a>
-  <img src="https://img.shields.io/badge/Version-8.3.17-6C63FF?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Version-8.3.39-6C63FF?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/Arch-amd64%20%7C%20arm64-111827?style=for-the-badge" alt="Architecture">
 </p>
 
@@ -86,6 +86,7 @@
 * **整理后自动增量同步**：整理完成后，只对本轮实际变化目录做增量 STRM 更新。
 * **元数据增量下载**：字幕、封面、NFO、音频等元数据可一起同步到 STRM 目录。
 * **失效 STRM / 空目录清理**：自动维护 STRM 目录整洁度。
+* **神医助手深度删除**：在 Emby 删除媒体后，可按原 STRM 播放链接联动删除 123 / 115 / 光鸭源文件，并安全清理空父目录。
 * **目录级去重与脏标记重试**：同目录不会重复并发；更新过程中若再次变更会自动重新入队。
 
 也就是说，项目不是“能生成 STRM”这么简单，而是已经形成了：
